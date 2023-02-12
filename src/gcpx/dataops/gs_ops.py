@@ -5,7 +5,7 @@ Contact : hasanain@aicailber.com
 
 from google.cloud import storage
 import json
-import sys, traceback
+import pandas as pd
 
 class BucketGCP:
     def __init__(self, bucket_name = None):
